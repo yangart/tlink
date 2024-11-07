@@ -265,7 +265,7 @@
 
                         // 현재 위치에 맞는 섹션과 메뉴 항목에 활성화 클래스 추가
                         function updateCurrentSection() {
-                            var scrollTop = $(window).scrollTop();
+                            var scrollTop = $(window).scrollTop() + 150;
                             var currentIndex = -1;
 
                             // 현재 스크롤 위치에 맞는 섹션 인덱스 찾기
